@@ -1,0 +1,31 @@
+# --- Window Layout & Options --- #
+own_window yes
+own_window_colour black
+own_window_transparent yes
+#own_window_type override
+#own_window_transparent yes
+own_window_hints undecorated,below,sticky,skip_taskbar,skip_pager
+double_buffer yes
+use_spacer right
+use_xft yes
+alignment top_right
+gap_x 10
+gap_y 45
+
+# --- Colours, Sizes, Fonts & Margins --- #
+update_interval 1.0
+maximum_width 250
+stippled_borders 3
+border_margin 9
+border_width 10
+default_color black
+
+# --- Text --- #
+draw_outline no
+draw_borders no
+font Droid Sans Mono:size=30:weight=light
+uppercase no
+draw_shades no
+
+TEXT
+${color #FFFFFF}${time %k}:${time %M}.${time %S}${alignr}
