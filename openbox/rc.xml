@@ -329,6 +329,16 @@
       <execute>leafpad</execute>
       </action>
       </keybind>
+      <keybind key="W-a">
+      <action name="Execute">
+      <execute>audacious</execute>
+      </action>
+      </keybind>
+     <keybind key="W-u">
+      <action name="Execute">
+      <execute>uzbl www.google.com</execute>
+      </action>
+      </keybind>
      <keybind key="W-m">
       <action name="Execute">
       <execute>xterm -maximized -e mocp</execute>

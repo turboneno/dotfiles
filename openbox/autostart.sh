@@ -2,6 +2,7 @@ numlockx on &
 ivman &
 conky &
 conky -c /home/moreno/.conkyrc2 &
+feh --bg-scale ~/.wallpapers/wallpaper.jpg &
 #xcompmgr -cC -t-3 -l-5 -r5 &
 # Just in case some random app calls on Nautilus, lets set some safeguards to minimise the impact:
 # Disable Nautilus desktop, because we really really do not want it!
@@ -16,4 +17,4 @@ gconftool-2 -s -t bool /apps/nautilus/preferences/show_advanced_permissions true
 # ...start dropbox daemon, but give it a minute so we can establish a net connection.
 (sleep 60s && ~/.dropbox-dist/dropboxd) &
 #chromium-browser &
-firefox &
+#firefox &

@@ -29,7 +29,7 @@ draw_shades no
 
 TEXT
 
-${color #FFFFFF}SYSTEM INFORMATION
+#${color #FFFFFF}SYSTEM INFORMATION
 ${color #FFFFFF}${time %A},${time %e} ${time %B} ${time %G}${alignr}
 ${color #FFFFFF}Uptime$color ${color #FFFFFF}$uptime
 ${color #FFFFFF}CPU
@@ -53,21 +53,21 @@ ${color #FFFFFF}Home$color  ${fs_free_perc /home}% ${color #FFFFFF}$alignr${fs_f
 ${color #FFFFFF}${fs_bar 6 /}$color
 ${color #FFFFFF}IP address (${addr eth0})
 
-${color #FFFFFF}Alt+F1		Menu
-${color #FFFFFF}Alt+F2		Gmrun
-${color #FFFFFF}Alt+F3		Dmenu
-${color #FFFFFF}Win+f		Firefox
-${color #FFFFFF}Win+c		Chromium
-${color #FFFFFF}Win+l		Links2
-${color #FFFFFF}Win+h		PCmanfm
-${color #FFFFFF}Win+t		Terminal
-${color #FFFFFF}Win+v		Vlc
-${color #FFFFFF}Win+e		Leafpad
-${color #FFFFFF}Win+m		Moc
-${color #FFFFFF}Win+F1		Desktop1
-${color #FFFFFF}Win+F2		Desktop2
-${color #FFFFFF}Win+F3		Desktop3
-${color #FFFFFF}Win+F4		Desktop4
+#${color #FFFFFF}Alt+F1		Menu
+#${color #FFFFFF}Alt+F2		Gmrun
+#${color #FFFFFF}Alt+F3		Dmenu
+#${color #FFFFFF}Win+f		Firefox
+#${color #FFFFFF}Win+c		Chromium
+#${color #FFFFFF}Win+l		Links2
+#${color #FFFFFF}Win+h		PCmanfm
+#${color #FFFFFF}Win+t		Terminal
+#${color #FFFFFF}Win+v		Vlc
+#${color #FFFFFF}Win+e		Leafpad
+#${color #FFFFFF}Win+m		Moc
+#${color #FFFFFF}Win+F1		Desktop1
+#${color #FFFFFF}Win+F2		Desktop2
+#${color #FFFFFF}Win+F3		Desktop3
+#${color #FFFFFF}Win+F4		Desktop4
 ${color #FFFFFF}nota		Crea nota
 ${color #FFFFFF}n		Crea nota
 ${color #FFFFFF}notes		Apri dir

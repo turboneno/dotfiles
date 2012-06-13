@@ -22,6 +22,127 @@
 				</execute>
 			</action>
 		</item>
+		<item label="Update wallpaper">
+			<action name="Execute">
+				<execute>
+					feh --bg-scale ~/.wallpapers/wallpaper.jpg
+				</execute>
+			</action>
+		</item>
+		<menu id="root-menu-201137" label="note">
+			<item label="132B735">
+				<action name="Execute">
+					<execute>
+						pcmanfm /home/moreno/Dropbox/note/132B735
+					</execute>
+				</action>
+			</item>
+			<item label="appunti mentali">
+				<action name="Execute">
+					<execute>
+						pcmanfm /home/moreno/Dropbox/note/appunti\ mentali
+					</execute>
+				</action>
+			</item>
+			<item label="casa">
+				<action name="Execute">
+					<execute>
+						pcmanfm /home/moreno/Dropbox/note/casa
+					</execute>
+				</action>
+			</item>
+			<item label="diy">
+				<action name="Execute">
+					<execute>
+						pcmanfm /home/moreno/Dropbox/note/diy
+					</execute>
+				</action>
+			</item>
+			<item label="gimp">
+				<action name="Execute">
+					<execute>
+						pcmanfm /home/moreno/Dropbox/note/gimp
+					</execute>
+				</action>
+			</item>
+			<item label="gtd">
+				<action name="Execute">
+					<execute>
+						pcmanfm /home/moreno/Dropbox/note/gtd
+					</execute>
+				</action>
+			</item>
+			<item label="idee regalo">
+				<action name="Execute">
+					<execute>
+						pcmanfm /home/moreno/Dropbox/note/idee\ regalo
+					</execute>
+				</action>
+			</item>
+			<item label="lego">
+				<action name="Execute">
+					<execute>
+						pcmanfm /home/moreno/Dropbox/note/lego
+					</execute>
+				</action>
+			</item>
+			<item label="linux_pc">
+				<action name="Execute">
+					<execute>
+						pcmanfm /home/moreno/Dropbox/note/linux_pc
+					</execute>
+				</action>
+			</item>
+			<item label="mangifici">
+				<action name="Execute">
+					<execute>
+						pcmanfm /home/moreno/Dropbox/note/mangifici
+					</execute>
+				</action>
+			</item>
+			<item label="moleskine">
+				<action name="Execute">
+					<execute>
+						pcmanfm /home/moreno/Dropbox/note/moleskine
+					</execute>
+				</action>
+			</item>
+			<item label="narrazione">
+				<action name="Execute">
+					<execute>
+						pcmanfm /home/moreno/Dropbox/note/narrazione
+					</execute>
+				</action>
+			</item>
+			<item label="photos">
+				<action name="Execute">
+					<execute>
+						pcmanfm /home/moreno/Dropbox/note/photos
+					</execute>
+				</action>
+			</item>
+			<item label="rec cinematografiche">
+				<action name="Execute">
+					<execute>
+						pcmanfm /home/moreno/Dropbox/note/rec\ cinematografiche
+					</execute>
+				</action>
+			</item>
+			<item label="ricette">
+				<action name="Execute">
+					<execute>
+						pcmanfm /home/moreno/Dropbox/note/ricette
+					</execute>
+				</action>
+			</item>
+			<item label="vini">
+				<action name="Execute">
+					<execute>
+						pcmanfm /home/moreno/Dropbox/note/vini
+					</execute>
+				</action>
+			</item>
+		</menu>
 		<separator/>
 		<menu id="root-menu-283241" label="Programmi">
 			<menu id="root-menu-283241-46369" label="Media">

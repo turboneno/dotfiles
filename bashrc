@@ -111,6 +111,10 @@ rename 'y/A-Z/a-z/' *
 x=0; for i in *.avi; do let x++; mv -v $i $(printf "video_%03d.avi" $x); done
 x=0; for i in *.jpg; do let x++; mv -v $i $(printf "%03d.jpg" $x); done
 }
+#montare nell'ordine:
+#disco 800 GB ext
+#disco 100 GB ext
+#disco 60 GB interno
 backup(){
 wget -mk http://turboneno.posterous.com/ -P /home/moreno/.bup2.0/posterous
 wget -mk http://cinepolentaecomputer.posterous.com/ -P /home/moreno/.bup2.0/cineposterous
@@ -131,6 +135,27 @@ tar -cf /media/disk/backup/note/note$(date +%Y%m%d).tar /home/moreno/Dropbox/not
 else
 echo “Connetti il disco esterno″
 fi
+}
+elements(){
+rsync -avr /media/disk/ /media/Elements/disk/
+}
+cp_p()
+{
+   strace -q -ewrite cp -- "${1}" "${2}" 2>&1 \
+      | awk '{
+        count += $NF
+            if (count % 10 == 0) {
+               percent = count / total_size * 100
+               printf "%3d%% [", percent
+               for (i=0;i<=percent;i++)
+                  printf "="
+               printf ">"
+               for (i=percent;i<100;i++)
+                  printf " "
+               printf "]\r"
+            }
+         }
+         END { print "" }' total_size=$(stat -c '%s' "${1}") count=0
 }
 function cdl { cd $1; ls;}
 extract () {
